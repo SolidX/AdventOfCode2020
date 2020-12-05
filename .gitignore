@@ -31,3 +31,5 @@ _ReSharper*/
 #Nuget packages folder
 packages/
 /Day 3/toboggantrajectory/target/
+/Day 4/lib
+*/node_modules/

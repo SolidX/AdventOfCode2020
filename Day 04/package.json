@@ -1,0 +1,32 @@
+{
+  "name": "passport-processing",
+  "version": "1.0.0",
+  "description": "Advent of Code 2020 Day 04: Passport Processing",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "start": "node lib/index.js",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SolidX/AdventOfCode2020.git"
+  },
+  "author": "SolidX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SolidX/AdventOfCode2020/issues"
+  },
+  "homepage": "https://github.com/SolidX/AdventOfCode2020#readme",
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "@types/node": "14.14.10",
+    "fs": "0.0.1-security"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
